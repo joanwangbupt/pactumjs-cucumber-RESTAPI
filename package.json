@@ -1,0 +1,26 @@
+{
+  "name": "pactumjs-cucumber-restapi",
+  "version": "1.0.0",
+  "description": "pactumjs-cucumber for api automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "pactum": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanwangbupt/pactumjs-cucumber-RESTAPI.git"
+  },
+  "author": "Joan Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joanwangbupt/pactumjs-cucumber-RESTAPI/issues"
+  },
+  "homepage": "https://github.com/joanwangbupt/pactumjs-cucumber-RESTAPI#readme",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "cucumber": "^6.0.7",
+    "mocha": "^10.2.0",
+    "pactum": "^3.5.1"
+  }
+}
