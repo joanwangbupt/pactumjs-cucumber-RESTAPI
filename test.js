@@ -2,7 +2,7 @@ const pactum = require('pactum');
 
 it('get connection details', async() => {
     await pactum.spec()
-    .get('https://workflow-service-console.test.consoleconnect.com/connections/651baec44f8e3aa22f32b54f')
+    .get('https://')
     .expectStatus(200);
 });
 
@@ -18,7 +18,7 @@ it('modify the contract time of IoD service', async() => {
     };
 
     await pactum.spec()
-        .post('https://shield-api.stage.consoleconnect.com/v2/admin/gia-billing/97872c5e-fd9d-464e-ae41-ccef93bbbe8c')
+        .post('https://')
         .withJson(postRequestBody)
         .withHeaders(postRequestHeader)
         .expectStatus();
