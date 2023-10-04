@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "pactum": "mocha test.js"
+    "pactum": "mocha step_definitions/* "
   },
   "repository": {
     "type": "git",
