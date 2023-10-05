@@ -4,8 +4,8 @@
   "description": "pactumjs-cucumber for api automation",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "pactum": "mocha step_definitions/* "
+    "test": "cucumber-js",
+    "pactum": "cucumber-js step_definitions/* "
   },
   "repository": {
     "type": "git",
