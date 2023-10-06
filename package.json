@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js",
-    "pactum": "cucumber-js step_definitions/* "
+    "pactum": "cucumber-js"
   },
   "repository": {
     "type": "git",
